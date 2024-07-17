@@ -1,1 +1,1 @@
-Link para visualização no vercel: https://vercel.com/lucas-ezequiels-projects-994f7631/lucas-projeto-calculadora-medias
+Link para visualização no vercel: https://lucas-projeto-calculadora-medias-murex.vercel.app/
