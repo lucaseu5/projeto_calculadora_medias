@@ -5,7 +5,13 @@ const atividades = [];
 const notas = [];
 const spanAprovado = '<span class= "resultado aprovado">Aprovado</span>'
 const spanReprovado = '<span class= "resultado reprovado">Reprovado</span>'
-const notaMinima = parseFloat(prompt('Digite a nota mínima:'))
+
+let valorNotaMinima = prompt('Digite a nota mínima:');
+while(!valorNotaMinima.match(/^[0-9]+(\.[0-9]+)?/)) {
+    valorNotaMinima = prompt('Digite a nota mínima:')
+}
+
+let notaMinima = parseFloat(valorNotaMinima)
 
 let linhas = "";
 
